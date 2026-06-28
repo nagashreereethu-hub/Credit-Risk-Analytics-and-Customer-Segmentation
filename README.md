@@ -1,4 +1,5 @@
 Credit Risk Analytics & Customer Segmentation
+
 📌 Project Overview
 
 This project analyzes credit card customer data to understand customer attrition, evaluate credit risk, identify spending behaviour, and segment customers based on income and utilization patterns.
