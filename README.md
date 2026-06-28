@@ -1,48 +1,115 @@
-# Credit-Risk-Analytics-and-Customer-Segmentation
-Credit Risk Analytics project using Excel, SQL, Python and Power BI
-# Credit Risk Analytics and Customer Segmentation
+Credit Risk Analytics & Customer Segmentation
+📌 Project Overview
 
-## Project Overview
+This project analyzes credit card customer data to understand customer attrition, evaluate credit risk, identify spending behaviour, and segment customers based on income and utilization patterns.
 
-This project analyzes customer credit card data to identify customer churn patterns, credit risk levels, spending behavior, and customer segments using Excel, SQL, and Python.
+The objective is to transform raw customer data into actionable business insights that can support customer retention strategies and improve credit risk management.
 
-## Tools Used
+🎯 Business Problem
 
-* Microsoft Excel
-* SQL
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
+Financial institutions need to identify:
 
-## Dataset
+Customers likely to leave (Attrition)
+High-risk customers
+High-value customer segments
+Spending behaviour across different customer groups
 
-* 10,127 customer records
-* Demographic information
-* Credit utilization metrics
-* Transaction behavior
-* Credit limit information
+Using data analytics, this project uncovers patterns that help support data-driven business decisions.
 
-## Key Analysis Performed
+📂 Dataset
 
-* Customer Churn Analysis
-* Risk Category Classification
-* Customer Segmentation
-* Spending Pattern Analysis
-* Credit Limit Analysis
-* Income Category Analysis
-* Gender Distribution Analysis
-* Transaction Behavior Analysis
-* Correlation Analysis
+Records: 10,127 Customers
 
-## Key Insights
+Features include:
 
-* Customer churn rate identified as approximately 16%.
-* Low-risk customers formed the majority of the customer base.
-* Premium customers generated the highest transaction value.
-* Customer spending and credit utilization showed significant behavioral patterns useful for risk management.
+Customer Demographics
+Credit Limit
+Transaction Amount
+Transaction Count
+Income Category
+Customer Attrition
+Credit Utilization
+Customer Segment
+🛠 Tools & Technologies
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Microsoft Excel
+Jupyter Notebook
 
-## Technologies
+📈 Data Cleaning
 
-Python, Pandas, Matplotlib, Seaborn, SQL, Excel
+Performed the following preprocessing steps:
+
+✔ Removed 1,064 completely null records
+
+✔ Renamed duplicate column names
+
+✔ Checked missing values
+
+✔ Verified dataset consistency
+
+✔ Prepared clean dataset for analysis
+
+📊 Analysis Performed
+Customer Attrition Analysis
+Credit Risk Classification
+Customer Segmentation
+Spending Behaviour Analysis
+Income Category Analysis
+Credit Limit Analysis
+Gender Distribution
+Transaction Analysis
+Correlation Analysis
+
+📌 Key Insights
+📉 Customer Attrition
+Total Customers: 10,127
+Existing Customers: 8,500
+Attrited Customers: 1,627
+Customer Attrition Rate: 16.07%
+
+💳 Credit Risk
+Majority of customers belonged to the Low Risk category.
+High-risk customers showed significantly higher credit utilization.
+
+💰 Customer Segmentation
+Customer segmentation classified customers into groups such as:
+
+Premium
+Mid Income
+High Income
+
+Premium customers generated higher transaction values compared to other customer segments.
+
+📊 Spending Behaviour
+
+Analysis of transaction amount, credit utilization and transaction count revealed clear spending patterns that can assist financial institutions in customer profiling.
+
+📈 Visualizations
+
+The project includes multiple visualizations such as:
+
+Customer Churn Analysis
+Risk Category Distribution
+Income Category Analysis
+Customer Segmentation Distribution
+Average spending by risk category
+Average credit limit by risk category
+Customer age distribution
+Average Transaction count by Risk Category
+Gender Analysis
+Correlation Heatmap
+
+🚀 Skills Demonstrated
+Data Cleaning
+Exploratory Data Analysis (EDA)
+Data Visualization
+Business Analytics
+Customer Analytics
+Credit Risk Analysis
+Customer Segmentation
+Problem Solving
+Business Insight Generation
